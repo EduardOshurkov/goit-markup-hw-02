@@ -6,6 +6,7 @@
 
 body {
   font-family: Roboto, sans-serif;
+  color: var(--title-color);
 }
 
 .list {
@@ -17,14 +18,16 @@ body {
 }
 /*----------------HEADER---------------------*/
 .header-logo {
-  font-weight: bold;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
   color: #2196f3;
 }
 .header-second-logo {
-  font-weight: bold;
+  font-family: Raleway;
+  font-weight: 700;
   font-size: 26px;
   line-height: 31px;
   letter-spacing: 0.03em;
@@ -33,7 +36,6 @@ body {
 
 .header-link {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -89,9 +91,9 @@ body {
 }
 
 .hero-btn {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.88;
   display: flex;
   align-items: center;
   text-align: center;
@@ -101,6 +103,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 .hero-btn:hover,
 .hero-btn:focus {
@@ -117,7 +120,7 @@ body {
 }
 
 .about-item {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -126,16 +129,15 @@ body {
 }
 
 .about-text {
-  font-weight: normal;
   font-size: 14px;
-  line-height: 24px;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
 }
 
 /*----------------PORTFOLIO---------------------*/
 .portfolio-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -145,7 +147,7 @@ body {
 
 /*----------------TEAM---------------------*/
 .team-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
   text-align: center;
@@ -164,8 +166,6 @@ body {
 
 .team-text {
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
@@ -181,8 +181,7 @@ body {
 
 .footer-logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -190,8 +189,7 @@ body {
 }
 .footer-second-logo {
   font-family: Raleway;
-  font-style: normal;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -199,36 +197,47 @@ body {
 }
 
 .footer-link {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #ffffff;
 }
 
+.footer-link:hover,
+.footer-link:focus {
+  color: #ffffff;
+}
+
 .footer-mail {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 
+.footer-mail:hover,
+.footer-mail:focus {
+  color: #ffffff;
+}
+
 .footer-tel {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-tel:hover,
+.footer-tel:focus {
+  color: #ffffff;
 }
 
 /*---------------------------------PORTFOLIO--------------------------*/
 .portfolio-btn {
   font-family: Roboto;
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.63;
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--title-color);
@@ -239,6 +248,7 @@ body {
   top: 174px;
   background: #f5f4fa;
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .portfolio-btn:hover,
@@ -247,7 +257,7 @@ body {
 }
 
 .example-title {
-  font-weight: bold;
+  font-weight: 700;
   font-size: 18px;
   line-height: 36px;
   letter-spacing: 0.06em;
@@ -255,7 +265,6 @@ body {
 }
 
 .example-text {
-  font-weight: normal;
   font-size: 16px;
   line-height: 30px;
   letter-spacing: 0.03em;
