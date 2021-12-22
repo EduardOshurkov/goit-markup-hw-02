@@ -53,7 +53,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #2196f3;
+  color: var(--text-color);
 }
 
 .header-mail:hover,
@@ -133,6 +133,8 @@ body {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: var(--text-color);
+  text-transform: none;
+  font-weight: 400;
 }
 
 /*----------------PORTFOLIO---------------------*/
@@ -242,10 +244,7 @@ body {
   letter-spacing: 0.03em;
   color: var(--title-color);
 
-  width: 128px;
-  height: 38px;
-  left: 576px;
-  top: 174px;
+  padding: 6px 22px;
   background: #f5f4fa;
   border-radius: 4px;
   cursor: pointer;
@@ -253,6 +252,7 @@ body {
 
 .portfolio-btn:hover,
 .portfolio-btn:focus {
+  color: #ffffff;
   background-color: #2196f3;
 }
 
